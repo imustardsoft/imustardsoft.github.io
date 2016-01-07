@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Radiant extension: blog-with-comments</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby on rails new york, cross platform mobile development, ror developer, nyc ruby consulting, nyc rails consulting, open source development, software consulting, " />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../../../../../stylesheets/jquery-ui-1.8.4.custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../stylesheets/style.css" />
+    <link rel="stylesheet" type="text/css" title="Default" href="../../../../../stylesheets/github.css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../../../../../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../../../../../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../../../../../javascripts/jquery.cycle.js"></script>
+    <script type="text/javascript" src="../../../../../javascripts/highlight.pack.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.button-comment').click(function(){
+          if($('#comment_answer').val()== '2'){
+            alert("Your comment will display after approved, thank you");
+          }else{
+            return false;
+          }
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      hljs.tabReplace = '    ';
+      hljs.initHighlightingOnLoad();
+
+
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]>
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+  <body>
+    <div class="outer_wrap_blog">
+    <div class="inner_wrap">
+      <div class="header">
+	 <div class="floatleft logo">
+	    <a href="../../../../../index.html"><img src="../../../../../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+			  <li class="currunt"><a href="../../../../../index.html">Home</a></li>
+			  <li>
+			    <a href="../../../../../services/how-do-we-work" class="menu-arrow">Service</a>
+				<ul>
+				  	<li><a href="../../../../../services/how-do-we-work">How do we work?</a></li>
+					<li><a href="../../../../../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../../../../../services/mobile-development">Mobile development</a></li>
+					<li><a href="../../../../../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
+                                        <li><a href="../../../../../services/e-commerce">E-Commerce</a></li>
+				</ul>
+			  </li>
+			  <li><a href="../../../../../portfolio">Portfolio</a></li>
+			  <li><a href="../../../../../blog">Blog</a></li>
+			  <li>
+			    <a href="../../../../../people/team"  class="menu-arrow">People</a>
+				<ul>
+				  	<li><a href="../../../../../people/team">Team</a></li>
+					<li><a href="../../../../../people/partners">Partners</a></li>
+				</ul>
+			  </li>
+			  <li>
+			  	<a href="../../../../../contact/contact-us"  class="menu-arrow">Contact</a>
+				<ul>
+				 	<li><a href="../../../../../contact/contact-us">Contact us</a></li>
+					<li><a href="../../../../../contact/new-product-launch">New Product Launch</a></li>
+					<li><a href="../../../../../contact/careers">Careers</a></li>
+					<li class="clear"></li>
+				</ul>
+			</li>
+			<li class="clear"></li>
+			</ul>
+		  </div>
+
+		<div class="topArrow_blog">
+	     <img src="../../../../../images/arrow-top.png" alt="arrow" />	   </div>
+	</div>
+	<div class="banner-title">Blog  </div>
+	<div class="blog_content">
+	  <div class="blog_list floatleft">
+
+
+                <div class="blog_box ">
+                  <h2  class="font-green b">Radiant extension: blog-with-comments</h2>
+                  <p class="font-gray">Posted by Star on <span class="font-brown b">October 10, 2010</span> | 17 comments</p>
+                </div>
+
+
+            <p><a href="http://radiantcms.org">Radiant <span class="caps">CMS</span></a> is the most popular <span class="caps">CMS</span> system in the open source community and on the market. As a matter of fact, Ruby language website uses Radiant.</p>
+<p>Now, almost all companies and many personal websites have a blog. Radiant <span class="caps">CMS</span> can be used as a blog system, but it only can post and display articles and doesn’t provide rights management, The rights management is important when you have multiple bloggers and want to make them work independently. Currently, we haven&#8217;t found a solid implementation on the market (on github), so we have created our own and share with you! You can find it @   <a href="../../../09/26/introducing-radiant-blog-extension">http://www.imustardsoft.com/blog/2010/09/26/introducing-radiant-blog-extension</a>.</p>
+<p>Another important feature of blog is comments. There are already quite a few in github, out of which we think <a href="http://github.com/saturnflyer/radiant-comments">http://github.com/saturnflyer/radiant-comments</a> is probably the best. This extension has many advantages and supports the following features: <br />
+1. have sample questions to prevent comment spamming<br />
+2. E-mail notification when someone comments on your blog<br />
+3. approve and modify the comment content</p>
+<p>Now we have fork it and imploded it to our blog extension. so, a new extension of radiant “blog-with-comments” is born <a href="http://github.com/imustardsoft/radiant-comments">http://github.com/imustardsoft/radiant-comments</a>. Relative to the radiant-blog-extension, the blog-with-comments-extension not only has all the features and fully-fledged comments system to it, but incorporates the rights management to make the system more robust. <br />
+So it is a fully functional blog extension of radiant. You are welcome to use it and let us know what you think.</p>
+<h3>Installation</h3>
+<p>To install Comments, run:  rake radiant:extensions:comments:install</p>
+<h3>Setup</h3>
+<p>1. In your site layout (or another appropriate place) use the following code to display your comment form: <br />
+      &lt;r:snippet name=&#8220;comments&#8221; /&gt;<br />
+2. To use email notification, you should Delete the following line in config/environment.rb  <br />
+<pre><code>
+      config.frameworks -= [ :action_mailer ]
+</code></pre>  <br />
+   Or just remove the :action_mailer references<br />
+<pre><code>
+      config.frameworks -= []
+</code></pre><br />
+3. If you&#8217;re using <span class="caps">SMTP</span> to send emails, create the following to <b>/config/initializers/action_mailer.rb</b><br />
+<pre><code>
+    ActionMailer::Base.delivery_method = :smtp
+    ActionMailer::Base.raise_delivery_errors = true
+    ActionMailer::Base.smtp_settings = {
+      :enable_starttls_auto =&gt;  true,
+      :address              =&gt;  "smtp.gmail.com",
+      :port                 =&gt;  "587",
+      :domain               =&gt;  "smtp.gmail.com",
+      :authentication       =&gt;  :plain,
+      :user_name            =&gt;  "username@gmail.com",
+      :password             =&gt;  "password"
+    }
+</code></pre></p>
+
+            <br/><br/>
+
+
+
+  <div class="comments">
+    <h2>Comments</h2>
+
+
+  <div class="comment" id="comment-140">
+    <p class="author">
+      <a href="http://www.tipsaletips.com/sales-strategy/sales-strategy-blank-lower-the-stress-trim-some-time-offer-additional-product-or-services-2.html" class="author-name" title="Visit sales strategy's website">
+      sales strategy
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Tuesday, November 16, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>thank you so much.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-198">
+    <p class="author">
+      <a href="http://www.osjewelry.com/phpbb2/memberlist.php?mode=viewprofile&amp;amp;u=69194
+" class="author-name" title="Visit sales tips's website">
+      sales tips
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Sunday, December 05, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>Really good post!</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-203">
+    <p class="author">
+      <a href="http://www.myrosebags.com/mulberry-handbags.html" class="author-name" title="Visit Mulberry Handbags's website">
+      Mulberry Handbags
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Monday, December 06, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>You have hit the mark. It seems to me it is very good thought. Completely with you I will agree.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-208">
+    <p class="author">
+      <a href="http://www.tattoost.com/tattoo-category-44.html" class="author-name" title="Visit Disposable Tip's website">
+      Disposable Tip
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Tuesday, December 07, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>Tell to me, please - where I can find more information on this question?</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-217">
+    <p class="author">
+      <a href="http://www.watchesky.net" class="author-name" title="Visit luxury watches's website">
+      luxury watches
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, December 09, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>At someone alphabetic</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-220">
+    <p class="author">
+      <a href="http://www.watchesky.net" class="author-name" title="Visit luxury watches's website">
+      luxury watches
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, December 09, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>I apologise, but, in my opinion, you are not right. I can defend the position. Write to me in PM, we will communicate.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-221">
+    <p class="author">
+      <a href="http://www.axeplan.com" class="author-name" title="Visit shopping plan's website">
+      shopping plan
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, December 09, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>Takes a bad turn.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-223">
+    <p class="author">
+      <a href="http://www.noblechic.com" class="author-name" title="Visit prada shoes's website">
+      prada shoes
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, December 09, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>Three humble shoemakers brainstorming will make a great statesman.	&#13;
+<br />&#13;
+<br />[url=http://www.noblechic.com/prada-womens.html]prada shoes for women[/url]&#13;
+<br />&#13;
+<br />- Shakwandya</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-226">
+    <p class="author">
+      <a href="http://uebernachtung guenstig buchen" class="author-name" title="Visit uebernachtung guenstig buchen's website">
+      uebernachtung guenstig buchen
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, December 10, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>Carry Walk,scientific natural public consequence recent investment leave bank child around notion bill foreign device post critical road matter none conservative investigation test unable afford outcome also pain fee store damage nor environment contract scientific maybe apply observe true through now afford ready same over ourselves bill document make currently currently deep relationship convention factor nuclear old match discipline film theatre quality change good hang up fast table whereas quick church cos that anyone access world file technique past centre street parent demand democratic more liability couple inside</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-227">
+    <p class="author">
+      <a href="http://yourbest.info" class="author-name" title="Visit best replica watches review's website">
+      best replica watches review
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, December 10, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>I consider, that you have deceived.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-230">
+    <p class="author">
+      <a href="http://www.xgenuine.com" class="author-name" title="Visit Nothing Is Impossible's website">
+      Nothing Is Impossible
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, December 10, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>You are absolutely right. In it something is also thought good, I support.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-233">
+    <p class="author">
+      <a href="http://bestbuyww.info" class="author-name" title="Visit free movie's website">
+      free movie
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, December 10, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>It is remarkable, it is the valuable answer</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-234">
+    <p class="author">
+      <a href="http://www.wishrain.com" class="author-name" title="Visit rain coming's website">
+      rain coming
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, December 10, 2010</span></span>
+    </p>
+
+    <div class="content_html"><p>I think, that you are mistaken. I can defend the position. Write to me in PM, we will discuss.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-241">
+    <p class="author">
+      <a href="http://www.pchsweb.net" class="author-name" title="Visit generic cialis's website">
+      generic cialis
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Friday, February 18, 2011</span></span>
+    </p>
+
+    <div class="content_html"><p>I do not see your logic</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-422">
+    <p class="author">
+      <a href="http://Tina" class="author-name" title="Visit Tina's website">
+      Tina
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, June 30, 2011</span></span>
+    </p>
+
+    <div class="content_html"><p>Ppl like you get all the brains. I just get to say thanks for he asenwr.</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-473">
+    <p class="author">
+      <a href="http://xrumerservice.org" class="author-name" title="Visit backlink service's website">
+      backlink service
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Wednesday, August 17, 2011</span></span>
+    </p>
+
+    <div class="content_html"><p>This is very interesting, You're a very skilled blogger. I've joined your feed and look forward to seeking more of your magnificent post. Also, I've shared your website in my social networks!</p></div>
+
+
+  </div>
+
+
+
+
+  <div class="comment" id="comment-503">
+    <p class="author">
+      <a href="http://juygjuyggku.com" class="author-name" title="Visit datestype's website">
+      datestype
+      </a>
+      <span class="font-gray">said on <span class="font-brown">Thursday, September 01, 2011</span></span>
+    </p>
+
+    <div class="content_html"><p>indesecib &lt;a href=&quot;http://efdifncaa.com&quot;&gt;dkyugbwvfcn&lt;/a&gt; Unfockrok</p></div>
+
+
+  </div>
+
+
+
+  </div>
+
+<h3 class="underline"></h3>
+
+<div class="blog_reply">
+
+     <form action="/blog/2010/10/10/radiant-extension-blog-with-comments/comments" method="post" >
+      <h4 class="font-green">Post a comment</h4>
+
+      <p><label for="comment_author">Your Name</label>
+
+      <input type="text" id="comment_author" name="comment[author]" class="required" /></p>
+
+      <p><label class="comment-label" for="comment_author_email">Your Email Address <span>(required, but not displayed)</span></label>
+
+      <input type="text" id="comment_author_email" name="comment[author_email]" class="required" /></p>
+
+      <p><label class="comment-label" for="comment_author_url">Your Web Address  <span>(optional)</span></label>
+
+      <input type="text" id="comment_author_url" name="comment[author_url]" /></p>
+
+      <p><label for="comment_content">Your Comment</label>
+
+      <textarea id="comment_content" name="comment[content]" class="required" rows="9" cols="40"></textarea></p>
+
+      <p><label class="comment-label" for="comment_answer">1 + 1 =?<span>(required)</span></label>
+      <input type="text" id="comment_answer" name="comment[answer]" /></p>
+
+
+
+      <p><input type="submit" id="submit" name="submit" class="button-comment" value=""  /></p>
+
+    </form>
+
+</div>
+
+
+
+
+
+	</div>
+		<div class="blog_nav floatright">
+                        <div class="Subscribe">
+				<h4>Sign Up for Newsletter</h4>
+				<form action="/subscriber_actions/register" method="post">
+				  <p style="margin-left:8px;">
+                                    <label>Email Address</label><input name="subscriber[email]" type="text" style=" width:226px;"/>
+                                    <input type="hidden" name="subscriber[password]" value="123456" />
+                                  </p>
+				  <p style="margin-left:8px; margin-top:5px;"><input type="submit" name="submit" value id="subscribe" class="subscribe_but"/></p>
+                                </form>
+                                <p class="space03"><a href="../../../../../rss/index.html">Blog RSS feed<img src="../../../../../images/icon-rss.gif" class="space_l3" alt="rss" /></a></p>
+			</div>
+			<div class="blog_readmore">
+				<h4>Read More</h4>
+                                <ul>
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2012/11/index.html">November 2012</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2012/08/index.html">August 2012</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2012/03/index.html">March 2012</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2012/01/index.html">January 2012</a></li>
+
+
+
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/12/index.html">December 2011</a></li>
+
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/11/index.html">November 2011</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/10/index.html">October 2011</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/07/index.html">July 2011</a></li>
+
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/06/index.html">June 2011</a></li>
+
+
+
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/02/index.html">February 2011</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../../2011/01/index.html">January 2011</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../12/index.html">December 2010</a></li>
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../index.html">October 2010</a></li>
+
+
+
+
+
+
+
+
+
+
+
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="../../../09/index.html">September 2010</a></li>
+
+
+                        	  <li> <span style="color: #84afdd; margin-right: 5px;"> > </span><a href="../../../../../blog">Recent entries</a></li>
+                        	  <li> <span style="color: #84afdd; margin-right: 5px;"> > </span><a href="../../../../../blog">All entries</a></li>
+                        	</ul>
+			</div>
+			<div class="name">
+                            <h3 class="font-green">What's in the name?</h3>
+                            <p>Starting as one <span class="font-green">small seed</span>, mustard plants quickly grow to <span class="font-green">impressive size</span>. Similarly, iMustardSoft brings your programs and web applications to launch faster, developing IT solutions that enhance your operations and get your latest product to <br/>market.</p>
+                            <div class="tree"></div>
+                       </div>
+
+			<div class="blog_kownmore">
+				<h4>Want to know more?</h4>
+				<p style="padding-left:8px;">If we have piqued your interest then we'd love to hear from you.
+<a href="../../../../../contact/contact-us">Contact us</a></p>
+			</div>
+		</div>
+		<div class="clear"></div>
+   </div>
+	<div class="clear"></div>
+
+   </div>
+  </div>
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="../../../../../contact/contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../../../../../index.html">Home</a></li>
+					<li><a href="../../../../../services/how-do-we-work">Services</a></li>
+					<li><a href="../../../../../contact/new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../../../../../portfolio">Portfolio</a></li>
+					<li><a href="../../../../../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../../../../../people/team">People</a></li>
+					<li><a href="../../../../../contact/contact-us">Contact Us</a></li>
+					<li><a href="../../../../../contact/careers">Careers</a></li>
+					<li><a href="../../../../../index.html">Privacy Policy</a></li>
+					<li><a href="../../../../../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../../../../../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../../../../../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../../../../../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="../../../../../contact/contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../../../../../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../../../../../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+
+
+  </body>
+</html>

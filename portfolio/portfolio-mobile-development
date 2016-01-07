@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>iMustardSoft-Portfolio-Mobile-development</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby, rails, ruby on rails, development, cross platform mobile development, consulting, consultant, new york, nyc, mobile application, web application, expert" />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+    <link href="../stylesheets/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../javascripts/unboxed.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../javascripts/target-blank.js"></script>
+    <script type="text/JavaScript" src="../javascripts/iframe.js"></script>
+   <!-- <script type="text/JavaScript" src="/javascripts/jquery-1.6.2.min.js"></script>-->
+    <script type="text/JavaScript" src="../javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]> 
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+
+   <body class="js" onload="load()" onunload="GUnload()">
+      <script type="text/javascript">  
+function switchTab(n){  
+    for(var i = 1; i <= 3; i++){  
+        document.getElementById("tab_" + i).className = "";  
+        document.getElementById("tab_con_" + i).style.display = "none";  
+    }  
+    document.getElementById("tab_" + n).className = "on";  
+    document.getElementById("tab_con_" + n).style.display = "block";  
+}  
+</script> 
+<script type="text/javascript">  
+function pageTab(n){  
+    for(var i = 1; i <= 2; i++){  
+        document.getElementById("page_" + i).className = "";  
+        document.getElementById("list_" + i).style.display = "none";  
+    }  
+    document.getElementById("page_" + n).className = "current-page";  
+    document.getElementById("list_" + n).style.display = "block";  
+}
+</script>
+<script type="text/javascript" src="../javascripts/jquery-slider.js"></script>
+<script type="text/javascript" src="../javascripts/easySlider1.5.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider();
+		});	
+	</script>
+<div class="outer_wrap_in">
+  <div class="inner_wrap">
+    <div class="header">
+	  <div class="floatleft logo">
+	    <a href="../index.html"><img src="../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+			  <li class="currunt"><a href="../index.html">Home</a></li>
+			  <li>
+			    <a href="../services/how-do-we-work" class="menu-arrow">Service</a>
+				<ul>
+				  	<li><a href="../services/how-do-we-work">How do we work?</a></li>
+					<li><a href="../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../services/mobile-development">Mobile development</a></li>
+					<li><a href="../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
+                                        <li><a href="../services/e-commerce">E-Commerce</a></li>
+				</ul>
+			  </li>
+			  <li><a href="../portfolio">Portfolio</a></li>
+			  <li><a href="../blog">Blog</a></li>
+			  <li>
+			    <a href="../people/team"  class="menu-arrow">People</a>
+				<ul>
+				  	<li><a href="../people/team">Team</a></li>
+					<li><a href="../people/partners">Partners</a></li>
+				</ul>
+			  </li>
+			  <li>
+			  	<a href="../contact/contact-us"  class="menu-arrow">Contact</a>
+				<ul>
+				 	<li><a href="../contact/contact-us">Contact us</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li class="clear"></li>
+				</ul>
+			</li>
+			<li class="clear"></li>
+			</ul>
+		  </div>
+	
+	 <div class="topArrow_portfolio">
+	     <img src="../images/arrow-top.png" alt="arrow" />	   </div>
+	</div>
+	<div class="banner-title">Portfolio</div>
+        <a name="top" id="top"></a>
+	<div class="content_in  portfolio">
+		<h3>Portfolio</h3>
+		
+                <div id="box">  
+			<ul id="tab">  
+				<li id="tab_1" ><a href="../portfolio">Web Development</a></li>  
+				<li id="tab_2" class="on"><a href="portfolio-mobile-development">Mobile Development</a></li>  
+				<li id="tab_3" ><a href="portfolio-enterprise-applications">Enterprise Applications</a></li>  
+			</ul>  
+			  
+				  
+				<div id="tab_con_2" style="display: block; ">
+					<div class="introduce  mobile-case">
+							<ul>
+<li>
+									<a class="introduce-img" href="portfolio-mobile-chem-pro">
+									<img src="../images/mobilecase/ipad_img.jpg" alt="les" class="floatleft" />
+									</a>
+							  <div class="floatright les">	
+										<a class="title font-black" href="portfolio-mobile-chem-pro">Chem Pro: Chemistry Tutor<br>
+										</a>
+										<p>The best way to learn chemistry is back with a brand new version built specifically for the iPad.</p>
+										<p>Introducing Chem Pro, the chemistry tutor on your iPad and the only resource you will need to excel in AP Chemistry or General Chemistry this year. Chem Pro features an exclusive lesson library containing a total of 80 videos that cover the entire course of AP and General Chemistry. If that were not enough, it also features nine sets of flash cards for memorizing all the needed elements and polyatomic ions, as well as some essential chemistry tools - a periodic table, a molar mass calculator, a unit converter, and an equation sheet.</p>
+								   <a href="http://itunes.apple.com/us/app/chem-pro-chemistry-tutor-hd/id509384060?mt=8" target="_blank" class="itune_btn"></a>
+								  <a class="read_more" href="portfolio-mobile-chem-pro">Read More</a>								</div>
+								</li><!---Chem Pro: Chemistry Tutor ipad---->
+								<li>
+									<a class="introduce-img" href="portfolio-mobile-les">
+									<img src="../images/mobilecase/les.jpg" alt="les" class="floatleft" />
+									</a>
+									<div class="floatright les">	
+										<a class="title font-black" href="portfolio-mobile-les">Lower East Side iPhone Application <br><span style="color:#FF0000;font-size:15px;">Featured in DNAInfo</span></a>
+										<p class="text">The Lower East Side Business Improvement District (LES BID) was established in 1992 as a nonprofit economic development organization dedicated to revitalizing the Orchard Street Shopping District by providing a variety of services to promote economic activity and improve the quality of life in the Lower East Side. Check out the App at <a class="iphone_text" href="http://itunes.apple.com/us/app/les/id477097479?mt=8">iphone APP Store.</a></p>
+										<p>In the creation of this application, we focused on the following areas during our programming efforts.  First we integrated the “Hot and Happening” feature, so that tourist and residents could be notified about the latest events.</p>
+										 <a class="itune_but" href="http://itunes.apple.com/us/app/les/id477097479?mt=8"></a>
+										<a class="read_more" href="portfolio-mobile-les">Read More</a>
+										
+									</div>
+								</li>
+								<li>
+										<a class="introduce-img"  href="portfolio-mobile-nyc"><img src="../images/mobilecase/nyc.jpg" alt="nyc" class="floatleft" /></a>
+									<div class="floatright">
+										<a class="title font-black" href="portfolio-mobile-nyc">NYCPlanIt <span style="color:#FF0000;font-size:15px;">Winner of BigApps2.0 Award</span></a>
+										<p>NYCPlanIt empowers New York City tourists to effectively plan their own trips to the city, helping them to create their own itinerary and then guiding them through it.  The NYCPlanIt system integrates a sophisticated web application and a mobile application that takes full advantage of the smartphone platform. The web application component utilizes a proprietary ranking algorithm to rank New York City's myriad sites, events and restaurants based on each individual user's stated interests, date of visit and budget. The itinerary can then be saved and shared on Facebook, linked to through Twitter or sent to friends via email.</p> 
+										<a class="android_but" href="https://market.android.com/details?id=com.imustardsoft_mobile.nycplanit"></a>
+                                                                                <a class="itune_but"></a>
+										<a class="read_more" href="portfolio-mobile-nyc">Read More</a>
+									</div>
+								</li>
+<li><a class="introduce-img" href="portfolio-mobile-ITEX"><img src="../images/mobilecase/itex.jpg" alt="ITEX" class="floatleft" /></a>
+									<div class="floatright">
+										<a class="title font-black" href="portfolio-mobile-ITEX">ITEX</a>
+										<p>For more than 30 years, ITEX Corporation (OTC: ITEX) has helped tens of thousands of businesses generate new sales, conserve precious cash flow and increase profits. With our leading payment technology platform for processing cashless business transactions and our exclusive distribution channel, member businesses utilize our digital currency "ITEX dollars" to exchange goods and services, rather than use cash. ITEX Corporation is based in Bellevue, Washington, and has three corporate divisions.</p>
+										<a class="android_but" href="https://market.android.com/details?id=com.imustardsoft.itex"></a>
+                                                                                <a class="itune_but"></a>
+										<a class="read_more" href="portfolio-mobile-ITEX">Read More</a>
+									</div>
+							  </li>
+									<li>
+									<a class="introduce-img" href="portfolio-mobile-tunr"><img src="../images/mobilecase/tu-nr.jpg" alt="tu.nr" class="floatleft" /></a>
+									<div class="floatright">
+										<a class="title font-black" href="portfolio-mobile-tunr">Tu.nr</a>
+										<p>Tu.nr enables commercial establishments to automatically respond in real-time to their customers' reaction to their environmental music. Using this app, which iMustardSoft was contracted to develop, mobile device users at a participating location, such as a bar, can vote on the music they would like to hear next. The music playing over the PA system automatically adjusts to suit the particular songs and styles most favored by the participating clientele, leaving end-users with a drastically improved experience with little additional effort on the part of the participating client.</p>
+										<a class="read_more" href="portfolio-mobile-tunr">Read More</a>
+									</div>
+								</li>
+							</ul>
+                <script type="text/javascript">
+
+			function showDiv1() {
+				$("#div1").slideToggle();
+				$("#btnShow1").hide();
+				$("#btnHide1").show();
+			}
+
+			function hideDiv1() {
+				$("#div1").hide();
+				$("#btnShow1").show();
+				$("#btnHide1").hide();
+			}
+
+			function showDiv2() {
+				$("#div2").slideToggle();
+				$("#btnShow2").hide();
+				$("#btnHide2").show();
+			}
+
+			function hideDiv2() {
+				$("#div2").hide();
+				$("#btnShow2").show();
+				$("#btnHide2").hide();
+			}
+                        function showDiv3() {
+				$("#div3").slideToggle();
+				$("#btnShow3").hide();
+				$("#btnHide3").show();
+			}
+
+			function hideDiv3() {
+				$("#div3").hide();
+				$("#btnShow3").show();
+				$("#btnHide3").hide();
+			}
+                        function showDiv4() {
+				$("#div4").slideToggle();
+				$("#btnShow4").hide();
+				$("#btnHide4").show();
+			}
+
+			function hideDiv4() {
+				$("#div4").hide();
+				$("#btnShow4").show();
+				$("#btnHide4").hide();
+			}
+                        function showDiv5() {
+				$("#div5").slideToggle();
+				$("#btnShow5").hide();
+				$("#btnHide5").show();
+			}
+
+			function hideDiv5() {
+				$("#div5").hide();
+				$("#btnShow5").show();
+				$("#btnHide5").hide();
+			}
+                        function showDiv6() {
+				$("#div6").slideToggle();
+				$("#btnShow6").hide();
+				$("#btnHide6").show();
+			}
+
+			function hideDiv6() {
+				$("#div6").hide();
+				$("#btnShow6").show();
+				$("#btnHide6").hide();
+			}
+
+			$(document).ready(function(){
+			
+				
+				$("#btnShow1").click(showDiv1);
+				$("#btnHide1").click(hideDiv1);
+
+				$("#btnShow2").click(showDiv2);
+				$("#btnHide2").click(hideDiv2);
+
+                                $("#btnShow3").click(showDiv3);
+				$("#btnHide3").click(hideDiv3);
+          
+                                $("#btnShow4").click(showDiv4);
+				$("#btnHide4").click(hideDiv4);
+				
+                                $("#btnShow5").click(showDiv5);
+				$("#btnHide5").click(hideDiv5);
+
+                                $("#btnShow6").click(showDiv6);
+				$("#btnHide6").click(hideDiv6);
+
+				$(".slidingDiv").hide();
+				$(".show_hide").show();
+			});
+		</script>
+                                                <h4>Mobile Application Market Overview</h4>
+						<p>Since the launch of Apple's iPhone, the introduction of the iOS mobile operating system, and the opening of Apple’s App Store, mobile applications have exploded in popularity. Though Apple remains the market's pace car in terms of innovation, the race for mobile app market share has quickly expanded: Google, Palm and Research In Motion (RIM; makers of Blackberry) have each developed app stores for their respective operating systems and mobile hardware platforms.</p>
+                                              <input type="button" id="btnShow1" class="show_hide" value="+ Read More" name="show"> <input type="button" id="btnHide1" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                              <div id="div1" class="slidingDiv" style="display: none; ">
+						<p>Businesses have used mobile applications as sales tools, connecting clients and potential customers to their products and services faster, and more cost-effectively, than ever before.  Mobile applications have also been used to mobilize brands and keep companies' names and brand identities at the front of people's minds.  This communicates the value of your brand in a big way.</p>
+						<p class="space-b20">The 2010 introduction of the iPad running iOS has popularized the tablet computer market, and in so doing has made it possible to develop mobile apps for a platform that is even more versatile and more powerful than even the most advanced mobile phones. A recent study by consultancy firm Gartner places the total yearly value of the market for mobile apps at $58 billion within three years—a rapid year-over-year growth from last year's comparatively paltry 8.2 billion downloads.</p>
+						</div>	
+							<h4>iMustardSoft Capability &amp; Advantages</h4>
+							<h5>Company Introduction</h5>
+							
+							<p>iMustardSoft differentiates itself from the competition in several key ways:</p>
+							<ul class="mobile-list">
+								<li>Proven success with existing powerful mobile applications</li>
+								<li>Development, artwork, design and testing under a single roof</li>
+								<li>Tight project startup and delivery schedules</li>
+								<li>Cost-effective and flexible pricing models</li>
+							</ul>
+                                                        <input type="button" id="btnShow2" class="show_hide" value="+ Read More" name="show"> <input type="button" id="btnHide2" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                              <div id="div2" class="slidingDiv" style="display: none; ">
+                                                        <p>iMustardSoft, LLC, is a full-service software development and web technology firm based in New York City.  iMustardSoft's team members are selected for their versatility, experience and expertise, along with their ability to maintain a high level of attention to detail throughout a brisk development process.  Though they come from diverse backgrounds—ranging from NGOs to mid-size consulting firms to industry giants like Citibank, Credit Suisse and The New York Times—each key member of the team has decades of experience at the cutting edge of the web and tech development field.</p>
+                                              </div>
+							<h5>Mobile Application Development</h5>
+							<p>iMustardSoft has extensive experience developing, launching and maintaining mobile applications. Our team members are well-versed in a wide array of programming languages and standards necessary to develop a mobile application, as well as deeply familiar with the ins and outs of getting the most out of the specific devices developed for the iOS platform:</p>
+                                                    <input type="button" id="btnShow3" class="show_hide" value="+ Read More" name="show"> 
+	<input type="button" id="btnHide3" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                                    <div id="div3" class="slidingDiv" style="display: none; ">
+							<ul class="mobile-list">
+								<li>Open TCP/IP and web service XML/JSON interaction with back-end web and application servers</li>
+								<li>Authenticating with Remote application and access control</li>
+								<li>Translating mobile devices' GPS and compass information into data that is usable in-application</li>
+								<li>Developing proprietary geo search functions that use iOS' GPS and mapping functions to identify particular sites and locations in close proximity to end users</li>
+								<li>Requesting images from remote servers and resizing them in real time</li>
+								<li>Uploading to and downloading files from remote servers</li>
+								<li>Developing and displaying dynamic graphs that respond on screen to real-time data updates from around the globe</li>
+								<li>Showing directions/routes on map view in real time</li>
+								<li>Image processing and creating frames from multiple images</li>
+								<li>Applications database sync between mobile applications and backend web application and databases</li>
+							</ul>
+                                                        <p>iMustardSoft is proud to be a strategic partner of Rhomobile, a mobile software framework company
+that allows cross-platform application development. It means that once this iPhone App is
+completed, the additional cost involved to move the application to Android tablet devices would be
+minimized.
+</p>
+                      </div>
+							
+							<h5>One-Stop Shop</h5>
+							<p>iMustardSoft reduces production time and expense by handling every step of mobile application development in-house, including:</p>
+                                                      <input type="button" id="btnShow4" class="show_hide" value="+ Read More" name="show"> 
+	                                              <input type="button" id="btnHide4" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                                      <div id="div4" class="slidingDiv" style="display: none; ">
+							<ul class="mobile-list">
+								<li>Custom Mobile Application Development</li>
+								<li>Comprehensive Functionality and Quality Testing</li>
+								<li>Integration with Third-Party Cloud Services</li>
+								<li>Registration with Apple's App Store</li>
+							</ul>
+                                                      </div>
+							<h5>Simple Expansion or Migration Across Platforms</h5>
+                                                      <input type="button" id="btnShow5" class="show_hide" value="+ Read More" name="show"> 
+	                                              <input type="button" id="btnHide5" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                                      <div id="div5" class="slidingDiv" style="display: none; ">
+							<p>As the burgeoning tablet market matures, competitors to the iOS-powered iPhone App will also become more sophisticated and versatile.  As they do, they will also become more common in enterprise settings.  iMustardSoft's experience developing programs on multiple mobile platforms means that your application will remain competitive, relevant and available to potential clients who will eventually adopt a mobile solution other than the iPhone App.</p>
+							<p>iMustardSoft is a member of both Apple's iPhone Developer Program and also Android Developer Program, giving us a broad understanding of the trends in mobile applications across all major platforms as well as a deep familiarity with iOS, the particular platform that powers both the iPhone and the iPad.</p>
+                                                      </div>
+							<h5>Web Application Development</h5>
+                                                      <input type="button" id="btnShow6" class="show_hide" value="+ Read More" name="show"> 
+	                                              <input type="button" id="btnHide6" class="hide" style="display:none;" value="Hide" name="hide"><br>
+                                                      <div id="div6" class="slidingDiv" style="display: none; ">
+							<p>As a provider of the latest web development solutions, iMustardSoft's key personnel have played lead roles in many successful high-profile projects.  Before iMustardSoft launched, they were building skills, experience and impressive portfolios on major projects around the world.  Since iMustardSoft formed in 2009, they have come together to deliver impressive results at even more impressive value.  For more details on some of the projects they've executed, see our sampling of <strong>Previous Clients</strong>.  For a more thorough breakdown of their individual areas of expertise, see <strong>Key Personnel</strong>.</p>
+							<p>iMustardSoft employees and associates draw on extensive backgrounds in every dimension of contemporary web application development, including information architecture, database construction and management, graphic design, end-user usability, multimedia and photo processing, software development, quality assurance, and user training, as well as high-level business consulting.</p>
+                      </div>
+							
+							<div class="clear"></div>
+				  </div>
+				</div>  
+				</div>  
+		<div class="clear"></div>
+
+		<div class="clients">
+			<h3>Clients</h3>
+			<div id="slider">
+					<ul>				
+						<li>
+							<a href="portfolio-mobile-development"><img alt="iopenbid" src="../images/clients/iopenbid.png"></a>
+							<a href="portfolio-mobile-development"><img alt="bayshare" src="../images/clients/bayshare.jpg"></a>
+							<a href="portfolio-mobile-development"><img alt="tunr" src="../images/clients/tunr.jpg"></a>
+						</li>
+						<li>
+							<a href="portfolio-mobile-development"><img alt="govinteract" src="../images/clients/govinteract.png"></a>
+							<a href="portfolio-mobile-development"><img alt="stealestate" src="../images/clients/stealestate.png"></a>
+							<a href="portfolio-mobile-development"><img alt="agoodidea" src="../images/clients/agoodidea.png"></a>
+						</li>
+<li>
+							<a href="portfolio-mobile-development"><img alt="corsedesignfactory" src="../images/clients/corsedesignfactory.jpg"></a>
+							<a href="portfolio-mobile-development"><img alt="parentmediainc" src="../images/clients/parentmediainc.jpg"></a>
+							<a href="portfolio-mobile-development"><img alt="wandcorp" src="../images/clients/wandcorp.jpg"></a>
+						</li>		
+					</ul>
+			</div>
+			<div class="clear"></div>
+		</div>	
+	</div>
+	<div class="clear"></div>
+		
+   </div>
+ 
+  
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="../contact/contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../services/how-do-we-work">Services</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../portfolio">Portfolio</a></li>
+					<li><a href="../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../people/team">People</a></li>
+					<li><a href="../contact/contact-us">Contact Us</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li><a href="../index.html">Privacy Policy</a></li>
+					<li><a href="../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="../contact/contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+  </div>
+  </body>
+</html>

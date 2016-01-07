@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>E-Commerce</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby, rails, ruby on rails, development, cross platform mobile development, consulting, consultant, new york, nyc, mobile application, web application, expert" />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+    <link href="../stylesheets/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../javascripts/unboxed.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../javascripts/target-blank.js"></script>
+    <script type="text/JavaScript" src="../javascripts/iframe.js"></script>
+   <!-- <script type="text/JavaScript" src="/javascripts/jquery-1.6.2.min.js"></script>-->
+    <script type="text/JavaScript" src="../javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]>
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+
+   <body class="js" onload="load()" onunload="GUnload()">
+      <script type="text/javascript" src="/services/js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	var sWidth = $("#focus").width();
+	var len = $("#focus ul li").length;
+	var index = 0;
+	var picTimer;
+
+	var btn = "<div class='btnBg'></div><div class='btn'>";
+	for(var i=0; i < len; i++) {
+		btn += "<span></span>";
+	}
+	btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+	$("#focus").append(btn);
+	$("#focus .btnBg").css("opacity",0.5);
+
+	$("#focus .btn span").css("opacity",0.4).mouseenter(function() {
+		index = $("#focus .btn span").index(this);
+		showPics(index);
+	}).eq(0).trigger("mouseenter");
+
+	$("#focus .preNext").css("opacity",0.2).hover(function() {
+		$(this).stop(true,false).animate({"opacity":"0.5"},300);
+	},function() {
+		$(this).stop(true,false).animate({"opacity":"0.2"},300);
+	});
+
+	$("#focus .pre").click(function() {
+		index -= 1;
+		if(index == -1) {index = len - 1;}
+		showPics(index);
+	});
+
+
+	$("#focus .next").click(function() {
+		index += 1;
+		if(index == len) {index = 0;}
+		showPics(index);
+	});
+
+	$("#focus ul").css("width",sWidth * (len));
+
+	$("#focus").hover(function() {
+		clearInterval(picTimer);
+	},function() {
+		picTimer = setInterval(function() {
+			showPics(index);
+			index++;
+			if(index == len) {index = 0;}
+		},4000);
+	}).trigger("mouseleave");
+
+	function showPics(index) {
+		var nowLeft = -index*sWidth;
+		$("#focus ul").stop(true,false).animate({"left":nowLeft},300);
+		$("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300);
+	}
+});
+
+</script>
+<div class="outer_wrap_in">
+  <div class="inner_wrap">
+    <div class="header">
+	  <div class="floatleft logo">
+	    <a href="../index.html"><img src="../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+
+			  <li class="currunt"><a href="../index.html">Home</a></li>
+
+			  <li>
+
+			    <a href="how-do-we-work" class="menu-arrow">Service</a>
+
+				<ul>
+
+				  	<li><a href="how-do-we-work">How do we work?</a></li>
+
+					<li><a href="what-do-we-do">What do we do?</a></li>
+                                        <li><a href="mobile-development">Mobile development</a></li>
+                                        <li><a href="ruby-on-rails-web-development">Ruby on Rails</a></li>
+                                        <li><a href="e-commerce">E-Commerce</a></li>
+
+				</ul>
+
+			  </li>
+
+			  <li><a href="../portfolio">Portfolio</a></li>
+
+			  <li><a href="../blog">Blog</a></li>
+
+			  <li>
+
+			    <a href="../people/team"  class="menu-arrow">People</a>
+
+				<ul>
+
+				  	<li><a href="../people/team">Team</a></li>
+
+					<li><a href="../people/partners">Partners</a></li>
+
+				</ul>
+
+			  </li>
+
+			  <li>
+
+			  	<a href="../contact/contact-us"  class="menu-arrow">Contact</a>
+
+				<ul>
+
+				 	<li><a href="../contact/contact-us">Contact us</a></li>
+
+					<li><a href="/contact/startups">Start-ups</a></li>
+
+					<li><a href="../contact/careers">Careers</a></li>
+
+					<li class="clear"></li>
+
+				</ul>
+
+			</li>
+
+			<li class="clear"></li>
+
+			</ul>
+
+		  </div>
+
+		<div class="topArrow_services">
+	     <img src="../images/arrow-top.png" alt="arrow"/>	   </div>
+	</div>
+	<div class="banner-title">Spree Ecommerce</div>
+		<div class="content_seo">
+			<div class="floatleft mobile-leftcontent">
+                 <div id="focus">
+		<ul>
+			<li><a href="http://beautybyturk.com/" target="_blank"><img src="../images/01.jpg" alt="BeautyByTurk" border="0"/></a></li>
+			<li><a href="http://www.cutekidcreations.com/" target="_blank"><img src="../images/02.jpg" alt="Cutekidcreations" border="0" /></a></li>
+		</ul>
+	</div><!--end -->
+
+				<div class="space-bottom">
+                                              <!--start-->
+											 <h1 style="margin-top:10px;">The Most Flexible E-Commerce Platform</h1><br/>
+
+<h1>What is Spree?</h1>
+Spree is a 100% open source e-commerce platform, powered by the ever popular, fast and agile Ruby on Rails framework, and designed to empower clients make customization and upgrades as simple as possible.<br/><br/>
+
+<h1>Custom Look and Feel -- the most optimal UI</h1>
+Customization is quick and easy. Spree is designed to run in an isolated cloud environment and therefore none of the  constraints of most existing solutions. You will have control over all aspects of the customer experience; your store can look the way you always wanted.<br/><br/>
+
+   &nbsp;&nbsp; ● Define your own styles and javascript with ease<br/>
+   &nbsp;&nbsp; ● Your design overrides the default views <br/>
+   &nbsp;&nbsp ● Powerful hook system allows for fine grain access during customization<br/>
+   &nbsp;&nbsp ● Third party extensions are enabled to affect view and styling changes<br/>
+   &nbsp;&nbsp ● Semantic HTML means only the best software<br/><br/>
+
+
+<h1>Versatile Checkout Flow</h1>
+The exact number and order of checkout steps is for you to decide. Hosted solutions in general require you to adopt their checkout process. With Spree you can create the ideal checkout flow for your business. Empowered with full access to the code -- you can use a single page or multi-page checkout with the exact steps you require.<br/><br/>
+
+    &nbsp;&nbsp ● Your Choice -- Single page or multi step checkout<br/>
+    &nbsp;&nbsp ● Integrate Paypal Express or other third party payment sites<br/>
+    &nbsp;&nbsp ● Absolute control over the checkout flow: add or remove as many steps as you like<br/>
+    &nbsp;&nbsp ● Show custom tax and shipping calculations<br/>
+    &nbsp;&nbsp ● AJAX or standard navigation<br/>
+    &nbsp;&nbsp ● Checkout steps automatically integrated with Google Analytics<br/><br/>
+
+<h1>Impressive Themes</h1>
+
+Control over every element on the page. Spree uses semantic HTML to provide a minimal look and feel which is easy to customize. Choose from dozens of themes or write your own.<br/><br/>
+
+    &nbsp;&nbsp ● The best theming support available on any e-commerce platform<br/>
+    &nbsp;&nbsp ● Advanced hook system allows for fine-grained customization<br/>
+    &nbsp;&nbsp ● Themes are available as full-fledged extensions so they can be reused and shared<br/>
+    &nbsp;&nbsp ● Easy transition when upgrading to newer versions<br/>
+    &nbsp;&nbsp ● Completely compatible with the latest Rails standards<br/>
+
+
+
+                                              <!--end -->
+
+					<div class="clear"></div>
+				</div>
+
+			</div>
+                        <script type="text/javascript">
+
+			function showDiv1() {
+				$("#div1").slideToggle();
+				$("#btnShow1").hide();
+				$("#btnHide1").show();
+			}
+
+			function hideDiv1() {
+				$("#div1").hide();
+				$("#btnShow1").show();
+				$("#btnHide1").hide();
+			}
+
+			function showDiv2() {
+				$("#div2").slideToggle();
+				$("#btnShow2").hide();
+				$("#btnHide2").show();
+			}
+
+			function hideDiv2() {
+				$("#div2").hide();
+				$("#btnShow2").show();
+				$("#btnHide2").hide();
+			}
+			$(document).ready(function(){
+
+
+				$("#btnShow1").click(showDiv1);
+				$("#btnHide1").click(hideDiv1);
+
+				$("#btnShow2").click(showDiv2);
+				$("#btnHide2").click(hideDiv2);
+
+				$(".slidingDiv").hide();
+				$(".show_hide").show();
+			});
+		</script>
+
+			<div class="floatleft ruby-rightcontent">
+				<h2>Our Rails products</h2>
+				<a href="../portfolio"><img src="../images/Ruby-product.jpg" class="space-b20 border-gray" alt="ruby products"/></a>
+				                 <h2  style="margin-top:10px;">Our Mobile products</h2>
+								 <a href="../portfolio/portfolio-mobile-les"><img src="../images/les-img.jpg" alt="LES iPhone App"  style="margin-bottom:10px;"></a>
+								 <a href="../portfolio/portfolio-mobile-nyc"><img src="../images/nyc-img.jpg" alt="NYCPlanIt android App" style="margin-bottom:10px;"></a>
+								 <a href="../portfolio/portfolio-mobile-ITEX"><img src="../images/itex-img.jpg" alt="ITEX android App" style="margin-bottom:10px;"></a>
+								 <a href="../portfolio/portfolio-mobile-development" > Read More</a>
+				                                 <p class="img-line" style=" margin-bottom:10px;"></p>
+												  <h3>Client Testimonials</h3>
+												 <div style="position: relative;display:none" class="rotator_highcharts">
+										<div style="position:relative; top: 0px; left: 0px; display: block;  z-index: 4; opacity: 1; width:234px;height:auto;">
+			<p>"We turned to iMustardSoft for this project. In less than a month the Android App was finished. We are amazed at the final results and would recommend this company to anyone looking to have an Android App. developed.”<br/>
+
+<span style="float:right; padding-right:5px;"><i>Herb Steck, ITEX broker</i></span></p>
+              </div>
+			  <div style="position:relative; top: 0px; left: 0px;  display: none;  z-index: 3; opacity: 0; width:234px;height:auto;">
+			     <p>
+				   "The communication was great and they were able to meet all of our deadlines. I would recommend iMustardSoft to any company looking to develop an e-commerce site! Thanks again!”<br/>
+<span style="float:right;  padding-right:5px;"><i>Kelly Sullivan, BeautyByTurk.com project manager</i></span>
+				 </p>
+			  </div>
+			  <div style="position:relative; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width:234px;height:auto;">
+			     <p>
+				 “They did tremeously for us. Very competent in understanding requirements, development, and meeting deadlines... I strongly recommend iMustardSoft team!"<br/>
+<span style="float:right;  padding-right:5px;"><i>John Carrino, Xquizit Technologies owner</i></span>
+				 </p>
+			   </div>
+			    <div style="position:relative; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width:234px;height:auto;">
+			     <p>
+				 "I have worked with the team on two great projects and throughout the process their
+performance was par none. Communication was seamless and the quality of design and
+honesty was very high. We can always rely on iMustardSoft to help provide us great quotes,
+and the high quality work our clients desire...within the proper timeframes."<br/>
+<span style="float:right;  padding-right:5px;"><i>Justin Lopez, Principal,Idea Concept Reality LLC</i></span>
+				 </p>
+			   </div>
+									</div>
+										<script type="text/javascript">
+var $j = jQuery;
+
+$j(document).ready(function(j$){
+	$j(function($j) {
+								$j('div .rotator_highcharts').toggle();
+			$j('.rotator_highcharts').cycle({timeout: 10000,containerResize: 0, after: onAfter});
+
+	});
+	function onAfter(curr, next, opts, fwd) {
+			//get the height of the current slide
+			var $ht = $j(this).height();
+			//set the container's height to that of the current slide
+			$j(this).parent().animate({height: $ht});
+	}
+});
+</script>
+
+                                  <!--
+
+
+
+
+
+
+
+
+
+
+                                      <h2 class="space-t20 border-white">
+                                        Healthsource.us.com -- Innovative Public Health Website Launched!
+                                      </h2>
+                                      <p class="space-b20  border-gray">Congratulations to our partner Healthsource that has been launched into the Public Health Sphere. It's been a pleasure to work with Christian and his team and we hope the site will be beneficial to all public health professionals! Kudos to the team!<a href="/blog/2012/11/12/healthsource-us-com----innovative-public-health-website-launched">Read More</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                                  -->
+
+
+			</div>
+			<div class="clear"></div>
+		</div>
+   </div>
+
+
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="../contact/contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="how-do-we-work">Services</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../portfolio">Portfolio</a></li>
+					<li><a href="../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../people/team">People</a></li>
+					<li><a href="../contact/contact-us">Contact Us</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li><a href="../index.html">Privacy Policy</a></li>
+					<li><a href="../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="../contact/contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+  </div>
+  </body>
+</html>

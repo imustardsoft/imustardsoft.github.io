@@ -1,0 +1,1 @@
+function ifr(url,w,h){document.write('<iframe id="ifr" name="ifr" width="'+w+'" height="'+h+'" frameborder="0"  src="'+url+'"></iframe>');}

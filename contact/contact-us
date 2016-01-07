@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>iMustardSoft-Contact us</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby, rails, ruby on rails, development, cross platform mobile development, consulting, consultant, new york, nyc, mobile application, web application, expert" />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+    <link href="../stylesheets/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../javascripts/unboxed.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../javascripts/target-blank.js"></script>
+    <script type="text/JavaScript" src="../javascripts/iframe.js"></script>
+   <!-- <script type="text/JavaScript" src="/javascripts/jquery-1.6.2.min.js"></script>-->
+    <script type="text/JavaScript" src="../javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]> 
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+
+   <body class="js" onload="load()" onunload="GUnload()">
+      <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA5ewaC8x68_7WmMRlDaM7HxREYVy_LQrEHyS3TX_kvNjC14TARhS-F9cRNSO0M5ptixlx5SgnaayFUQ" type="text/javascript"></script>
+    <script type="text/javascript">
+		//<![CDATA[
+	
+		function load() {
+		  if (GBrowserIsCompatible()) {
+			var map = new GMap2(document.getElementById("map"));
+			
+	 
+	 
+		 map.addControl(new GSmallMapControl());
+		 map.addControl(new GMapTypeControl());
+		 map.setCenter(new GLatLng(40.743648,-73.989193), 13);
+		
+		 // Create our "tiny" marker icon
+		 var icon = new GIcon();
+		 icon.image = "http://labs.google.com/ridefinder/images/mm_20_red.png";
+		 icon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+		 icon.iconSize = new GSize(12, 20);
+		 icon.shadowSize = new GSize(22, 20);
+		 icon.iconAnchor = new GPoint(6, 20);
+		 icon.infoWindowAnchor = new GPoint(5, 1);
+		 map.addOverlay(new GMarker(new GLatLng(40.743648,-73.989193), icon));
+		  }
+		}
+	
+		//]]>
+    </script>
+  <script type="text/javascript">
+var $j = jQuery;
+
+$j(document).ready(function(j$){
+	$j(function($j) {		
+								$j('div .rotator_highcharts').toggle();			
+			$j('.rotator_highcharts').cycle({timeout: 10000,containerResize: 0, after: onAfter}); 
+		 
+	});
+	function onAfter(curr, next, opts, fwd) {
+			//get the height of the current slide
+			var $ht = $j(this).height();								
+			//set the container's height to that of the current slide
+			$j(this).parent().animate({height: $ht});
+	}	
+});
+</script>
+<div class="outer_wrap_in">
+  <div class="inner_wrap">
+    <div class="header">
+	  <div class="floatleft logo">
+	    <a href="../index.html"><img src="../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+			  <li class="currunt"><a href="../index.html">Home</a></li>
+			  <li>
+			    <a href="../services/how-do-we-work" class="menu-arrow">Service</a>
+				<ul>
+				  	<li><a href="../services/how-do-we-work">How do we work?</a></li>
+					<li><a href="../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../services/mobile-development">Mobile development</a></li>
+					<li><a href="../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
+                                        <li><a href="../services/e-commerce">E-Commerce</a></li>
+				</ul>
+			  </li>
+			  <li><a href="../portfolio">Portfolio</a></li>
+			  <li><a href="../blog">Blog</a></li>
+			  <li>
+			    <a href="../people/team"  class="menu-arrow">People</a>
+				<ul>
+				  	<li><a href="../people/team">Team</a></li>
+					<li><a href="../people/partners">Partners</a></li>
+				</ul>
+			  </li>
+			  <li>
+			  	<a href="contact-us"  class="menu-arrow">Contact</a>
+				<ul>
+				 	<li><a href="contact-us">Contact us</a></li>
+					<li><a href="new-product-launch">New Product Launch</a></li>
+					<li><a href="careers">Careers</a></li>
+					<li class="clear"></li>
+				</ul>
+			</li>
+			<li class="clear"></li>
+			</ul>
+		  </div>
+	  
+		  
+	 <div class="topArrow_contact">
+	     <img src="../images/arrow-top.png" alt="arrow" />	   </div>
+	</div>
+	<div class="banner-title">Contact Us  </div>
+	<div class="content_in">
+		
+		<div class="contact_form floatleft">
+
+                  <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+                    <p><input type="hidden" name="oid" value="00D700000008cZa" />
+	            <input type="hidden" name="retURL" value="http://www.imustardsoft.com/confirm/inquiry-confirmation" /></p>
+			<ul>
+				<li><label>First Name</label><input id="first_name" name="first_name" type="text" /></li>
+				<li><label>Last Name</label><input id="last_name" name="last_name" type="text" /></li>
+				<li><label>Email</label><input id="email" name="email" type="text" /></li>
+				<li><label>Company</label><input id="company" name="company" type="text" /></li>
+				<li><label>Expected Budget</label>
+<select  id="00N70000002hGx1" name="00N70000002hGx1" title="Expected Budget"><option value="">--None--</option><option value="$1,000 - $5,000">$1,000 - $5,000</option>
+<option value="$5,000 - $10,000">$5,000 - $10,000</option>
+<option value="$10,000 - $20,000">$10,000 - $20,000</option>
+<option value="$20,000 - $40,000">$20,000 - $40,000</option>
+<option value="$40,000 - $100,000">$40,000 - $100,000</option>
+<option value="more than  $150,000">more than  $150,000</option>
+</select>
+</li>
+			    <li><label>Phone Number</label><input id="phone" maxlength="40" name="phone" size="20" type="text" /></li>
+				<li><label>Description</label><textarea id="description" name="description" cols="" rows=""></textarea></li>
+				<li><input name="submit" type="submit" class="button" value="" /></li>
+			</ul>
+                
+              </form>
+ 
+			<div class="clear"></div>
+			<p class="font-green b contact-tilte">By phone</p>
+			<p>You can call us directly at <span class="phone"><i>(347)669-3158.</i></span></p>
+                        <p>Fax: 917-382-2707</p>
+                        <p>Email us at info@imustardsoft.com</p>
+						<p class="jointeam">If you would like to join the iMustardSoft team, please visit our <a href="careers">Career section</a>.</p>
+		</div>
+			
+		<div class="contact_content floatright">
+		 <p class="font-green b contact-tilte">Our Client Testimonials </p>
+		<div  style="position: relative;display:none" class="rotator_highcharts">
+			<div style="position:relative; top: 0px; left: 0px; display: block;  z-index: 4; opacity: 1; width:367px;height:225px">
+			<p>"ITEX is the largest Barter Company in North America. With over 100 offices and 25,000 members trading goods and services 24 hours a day. Since we are a constantly growing Company, we needed to also grow in the technology field. Having our own Android App. seemed like the next best thing to do. We turned to iMustardSoft for this project. In less than a month the Android App was finished. We are amazed at the final results and would recommend this company to anyone looking to have an Android App. developed."<br/>
+<span style="float:right;"><i>Herb Steck, ITEX broker</i></span></p>
+              </div>
+			   <div style="position:relative; top: 0px; left: 0px;  display: none;  z-index: 3; opacity: 0; width: 367px;height:225px">
+			     <p>
+				   "I would like to thank our tech lead and the rest of the development team at iMustardSoft for all of their patience and hard work in the building of BeautyByTurk.com. They were extremely responsive to all of our questions and concerns, always working with us to find the best solutions. The communication was great and they were able to meet all of our deadlines. I would recommend iMustardSoft to any company looking to develop an e-commerce site! Thanks again!"<br/>
+<span style="float:right"><i>Kelly Sullivan, BeautyByTurk.com project manager</i></span>
+				 </p>  
+			  </div>
+			   <div style="position:relative; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width:367px;height:225px">
+			     <p>
+				  "They did tremeously for us. Very competent in understanding requirements, development, and meeting deadlines, something very important for us in the new age of software development and online SaaS applications. I strongly recommend iMustardSoft team!"<br/>
+<span style="float:right;"><i>John Carrino, Xquizit Technologies owner</i></span>
+				 </p>
+			   </div>
+			    <div style="position:relative; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width:367px;height:225px">
+			     <p>
+				  "Our firm specializes in graphics design, marketing, web design, and media consulting; we help
+businesses and brands grow. I have worked with the team on two great projects and throughout the process their performance was par none. Communication was seamless and the quality of design and honesty was very high. We can always rely on iMustardSoft to help provide us great quotes, and the high quality work our clients desire. We were able to create the desired projects within the proper timeframes. iMustardSoft has allowed my firm to take on projects that were previously unattainable."<br/>
+<span style="float:right;"><i>Justin Lopez, Principal, Idea Concept Reality LLC </i></span>
+				 </p>
+			   </div>
+		
+		</div>
+		
+			
+			<p class="font-green b contact-tilte">New Product & Startup-friendly</p>
+			<p> <a href="new-product-launch">Learn More</a></p><br/>
+			<p> 1133 Broadway, Suite 706<br> New York, NY 10010</p><br/>
+			<div id="map"></div>
+		</div>
+		<div class="clear"></div>
+   </div>
+	<div class="clear"></div>
+		
+   </div>
+  
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../services/how-do-we-work">Services</a></li>
+					<li><a href="new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../portfolio">Portfolio</a></li>
+					<li><a href="../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../people/team">People</a></li>
+					<li><a href="contact-us">Contact Us</a></li>
+					<li><a href="careers">Careers</a></li>
+					<li><a href="../index.html">Privacy Policy</a></li>
+					<li><a href="../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>iMustardSoft-portfolio-enterprise-applications</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby, rails, ruby on rails, development, cross platform mobile development, consulting, consultant, new york, nyc, mobile application, web application, expert" />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+    <link href="../stylesheets/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../javascripts/unboxed.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../javascripts/target-blank.js"></script>
+    <script type="text/JavaScript" src="../javascripts/iframe.js"></script>
+   <!-- <script type="text/JavaScript" src="/javascripts/jquery-1.6.2.min.js"></script>-->
+    <script type="text/JavaScript" src="../javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]> 
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+
+   <body class="js" onload="load()" onunload="GUnload()">
+      <script type="text/javascript">  
+function switchTab(n){  
+    for(var i = 1; i <= 3; i++){  
+        document.getElementById("tab_" + i).className = "";  
+        document.getElementById("tab_con_" + i).style.display = "none";  
+    }  
+    document.getElementById("tab_" + n).className = "on";  
+    document.getElementById("tab_con_" + n).style.display = "block";  
+}  
+</script> 
+<script type="text/javascript">  
+function pageTab(n){  
+    for(var i = 1; i <= 2; i++){  
+        document.getElementById("page_" + i).className = "";  
+        document.getElementById("list_" + i).style.display = "none";  
+    }  
+    document.getElementById("page_" + n).className = "current-page";  
+    document.getElementById("list_" + n).style.display = "block";  
+}
+</script>
+<script type="text/javascript" src="../javascripts/jquery-slider.js"></script>
+<script type="text/javascript" src="../javascripts/easySlider1.5.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider();
+		});	
+	</script>
+<div class="outer_wrap_in">
+  <div class="inner_wrap">
+    <div class="header">
+	  <div class="floatleft logo">
+	    <a href="../index.html"><img src="../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+			  <li class="currunt"><a href="../index.html">Home</a></li>
+			  <li>
+			    <a href="../services/how-do-we-work" class="menu-arrow">Service</a>
+				<ul>
+				  	<li><a href="../services/how-do-we-work">How do we work?</a></li>
+					<li><a href="../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../services/mobile-development">Mobile development</a></li>
+					<li><a href="../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
+                                        <li><a href="../services/e-commerce">E-Commerce</a></li>
+				</ul>
+			  </li>
+			  <li><a href="../portfolio">Portfolio</a></li>
+			  <li><a href="../blog">Blog</a></li>
+			  <li>
+			    <a href="../people/team"  class="menu-arrow">People</a>
+				<ul>
+				  	<li><a href="../people/team">Team</a></li>
+					<li><a href="../people/partners">Partners</a></li>
+				</ul>
+			  </li>
+			  <li>
+			  	<a href="../contact/contact-us"  class="menu-arrow">Contact</a>
+				<ul>
+				 	<li><a href="../contact/contact-us">Contact us</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li class="clear"></li>
+				</ul>
+			</li>
+			<li class="clear"></li>
+			</ul>
+		  </div>
+	
+	 <div class="topArrow_portfolio">
+	     <img src="../images/arrow-top.png" alt="arrow" />	   </div>
+	</div>
+	<div class="banner-title">Portfolio</div>
+        <a name="top" id="top"></a>
+	<div class="content_in  portfolio">
+		<h3>Portfolio</h3>
+		
+                <div id="box">  
+			<ul id="tab">  
+				<li id="tab_1"><a href="../portfolio">Web Development</a></li>  
+				<li id="tab_2"><a href="portfolio-mobile-development">Mobile Development</a></li>  
+				<li id="tab_3" class="on"><a href="portfolio-enterprise-applications">Enterprise Applications</a></li>  
+			</ul>  
+			  
+				  
+				<div id="tab_con_3" style="display: block; ">
+					<div class="introduce" id="c3">
+						<a><img src="../images/wand.jpg" align="left"></a>
+						<p>Wand Corporation, an IT supplier to many large fast-food chains in America, retained us to create an enterprise remote access system that servers as their central nerve system and command center to manage their 10K+ terminals We customized VNC open source software and seamlessly integrate it into the Wand ERP application. The whole system is tested to be very secure.</p>
+						<p class="font-brown appraisal">“Before iMustardSoft, we asked around but no one was able to tackle this project. They simply took on the project and turned over such a great system with air-tight security. We are very impressed.”</p>
+						<p class="font-brown signature"><i>- Henry, Lead Consultation, Wand Corporation.</i></p>
+						<div class="clear"></div>
+					</div>
+				</div>  
+				</div>  
+		<div class="clear"></div>
+
+		<div class="clients">
+			<h3>Clients</h3>
+			<div id="slider">
+					<ul>				
+						<li>
+							<a href="portfolio-enterprise-applications"><img alt="iopenbid" src="../images/clients/iopenbid.png"></a>
+							<a href="portfolio-enterprise-applications"><img alt="bayshare" src="../images/clients/bayshare.jpg"></a>
+							<a href="portfolio-enterprise-applications"><img alt="tunr" src="../images/clients/tunr.jpg"></a>
+						</li>
+						<li>
+							<a href="portfolio-enterprise-applications"><img alt="govinteract" src="../images/clients/govinteract.png"></a>
+							<a href="portfolio-enterprise-applications"><img alt="stealestate" src="../images/clients/stealestate.png"></a>
+							<a href="portfolio-enterprise-applications"><img alt="agoodidea" src="../images/clients/agoodidea.png"></a>
+						</li>
+<li>
+							<a href="portfolio-enterprise-applications"><img alt="corsedesignfactory" src="../images/clients/corsedesignfactory.jpg"></a>
+							<a href="portfolio-enterprise-applications"><img alt="parentmediainc" src="../images/clients/parentmediainc.jpg"></a>
+							<a href="portfolio-enterprise-applications"><img alt="wandcorp" src="../images/clients/wandcorp.jpg"></a>
+						</li>		
+					</ul>
+			</div>
+			<div class="clear"></div>
+		</div>	
+	</div>
+	<div class="clear"></div>
+		
+   </div>
+ 
+
+  
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="../contact/contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../services/how-do-we-work">Services</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../portfolio">Portfolio</a></li>
+					<li><a href="../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../people/team">People</a></li>
+					<li><a href="../contact/contact-us">Contact Us</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li><a href="../index.html">Privacy Policy</a></li>
+					<li><a href="../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="../contact/contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+  </div>
+  </body>
+</html>

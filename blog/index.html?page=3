@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>iMustardSoft-Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="ruby on rails new york, cross platform mobile development, ror developer, nyc ruby consulting, nyc rails consulting, open source development, software consulting, " />
+    <meta name="description" content="We are a Web 2.0 consulting firm, specializing in Ruby on Rails and dynamic web application development. We are located in the heart of New York City. We have many happy clients, including startups and established companies." />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/jquery-ui-1.8.4.custom.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
+    <link rel="stylesheet" type="text/css" title="Default" href="../stylesheets/github.css" />
+    <!--[if IE ]>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" />
+    <![endif]-->
+    <script type="text/javascript" src="../javascripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery.cycle.js"></script>
+    <script type="text/javascript" src="../javascripts/highlight.pack.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.button-comment').click(function(){
+          if($('#comment_answer').val()== '2'){
+            alert("Your comment will display after approved, thank you");
+          }else{
+            return false;
+          }
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      hljs.tabReplace = '    ';
+      hljs.initHighlightingOnLoad();
+
+  
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+  function menuFix() {
+   var sfEls = document.getElementById("nav").getElementsByTagName("li");
+   for (var i=0; i<sfEls.size; i++) {
+    sfEls[i].onmouseover=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseDown=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onMouseUp=function() {
+    this.className+=(this.className.size>0? " ": "") + "sfhover";
+    }
+    sfEls[i].onmouseout=function() {
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+  "");
+    }
+   }
+  }
+  window.onload=menuFix;
+//]]> 
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16067353-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>
+  <body>
+    <div class="outer_wrap_blog">
+    <div class="inner_wrap">
+      <div class="header">
+	 <div class="floatleft logo">
+	    <a href="../index.html"><img src="../images/logo.jpg" alt="logo" /></a>	  </div>
+	   <div id="nav">
+			<ul>
+			  <li class="currunt"><a href="../index.html">Home</a></li>
+			  <li>
+			    <a href="../services/how-do-we-work" class="menu-arrow">Service</a>
+				<ul>
+				  	<li><a href="../services/how-do-we-work">How do we work?</a></li>
+					<li><a href="../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../services/mobile-development">Mobile development</a></li>
+					<li><a href="../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
+                                        <li><a href="../services/e-commerce">E-Commerce</a></li>
+				</ul>
+			  </li>
+			  <li><a href="../portfolio">Portfolio</a></li>
+			  <li><a href="../blog">Blog</a></li>
+			  <li>
+			    <a href="../people/team"  class="menu-arrow">People</a>
+				<ul>
+				  	<li><a href="../people/team">Team</a></li>
+					<li><a href="../people/partners">Partners</a></li>
+				</ul>
+			  </li>
+			  <li>
+			  	<a href="../contact/contact-us"  class="menu-arrow">Contact</a>
+				<ul>
+				 	<li><a href="../contact/contact-us">Contact us</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li class="clear"></li>
+				</ul>
+			</li>
+			<li class="clear"></li>
+			</ul>
+		  </div>
+	
+		<div class="topArrow_blog">
+	     <img src="../images/arrow-top.png" alt="arrow" />	   </div>
+	</div>
+	<div class="banner-title">Blog  </div>
+	<div class="blog_content">
+	  <div class="blog_list floatleft">
+            
+            
+  
+    <div class="blog_box ">                
+      <h2 class="font-green b"><a href="2010/10/19/submit-sitemap-to-google/index.html">Submit sitemap to google</a></h2>
+      <p class="font-gray">Posted by annie on <span class="font-brown b">October 19, 2010</span> | 1 comments</p>
+      <p class="blog_news">Sitemap can increase the number of pages indexed by Google, and thus make your site more visible. So in our website, We tried to submit sitemap to google. 
+Under google webmaster tools, there is a button to submit sitemap. First time around, we directly submitted the page http://www.imustardsoft.com/sitemap.html, but the status shows of a big "×" – how frustrating!</p>
+    </div>   
+    <h3 class="underline"></h3>
+  
+
+  
+    <div class="blog_box ">                
+      <h2 class="font-green b"><a href="2010/10/11/ruby-1-9-2-gems-issues-and-resolution/index.html">Ruby 1.9.2 gems issues and resolution</a></h2>
+      <p class="font-gray">Posted by Jack  on <span class="font-brown b">October 11, 2010</span> | 1 comments</p>
+      <p class="blog_news">Recently, we have started using ruby 1.9.2, with little problems. With the nifty tool of rvm, managing multiple version of ruby vm has never been easier. However, I had some problems with the roo, an Excel parsing gem today. The error message is something like the following: 
+
+
+/.rvm/gems/ruby-1.9.2-head/gems/ruby-ole-1.2.10.1/lib/ole/storage/base.rb:376:in `validate!': OLE2 signature is invalid (Ole::Storage::FormatError)</p>
+    </div>   
+    <h3 class="underline"></h3>
+  
+
+  
+    <div class="blog_box ">                
+      <h2 class="font-green b"><a href="2010/10/10/radiant-extension-blog-with-comments/index.html">Radiant extension: blog-with-comments</a></h2>
+      <p class="font-gray">Posted by Star on <span class="font-brown b">October 10, 2010</span> | 17 comments</p>
+      <p class="blog_news"><p>Now almost all of the com<script type="text/javascript" src="../javascripts/tiny_mce/themes/advanced/langs/en.js?1285497529"></script>pany or personal website has a blog system. If your website based on <a href="http://radiantcms.org">Radiant <span class="caps">CMS</span></a>, you know that the radiant can as a blog system, but this system only can post and display articles and doesn&#8217;t provide rights management, The rights management is the basic functions of the blog. we have finish our own blog engine to achieve it and already been introduced before, you can find it in <a href="2010/09/26/introducing-radiant-blog-extension">http://www.imustardsoft.com/blog/2010/09/26/introducing-radiant-blog-extension</a>.</p></p>
+    </div>   
+    <h3 class="underline"></h3>
+  
+
+  
+    <div class="blog_box ">                
+      <h2 class="font-green b"><a href="2010/10/05/rails_fulltext_search_sphinx_gem_fix/index.html">Thinking Sphinx Gem Delta Sorting fix</a></h2>
+      <p class="font-gray">Posted by Jack  on <span class="font-brown b">October 05, 2010</span> | 0 comments</p>
+      <p class="blog_news"><p>Many full-blown applications need a full-text search engine.  If you have been using Ruby on Rails application, chances are that you have heard about the options out there, such as Lucene, Xapian, and Sphinx. For a more comprehensive survey,  see http://locomotivation.squeejee.com/post/109284085/mulling-over-our-ruby-on-rails-full-text-search-options. Sphinx has been the de facto norm recently in the Rails development circle. The gem is called Thinking Sphinx and Delay Delta. The latter includes rake methods for processing delta in a delayed manner.</p></p>
+    </div>   
+    <h3 class="underline"></h3>
+  
+
+  
+    <div class="blog_box ">                
+      <h2 class="font-green b"><a href="2010/09/26/introducing-radiant-blog-extension/index.html">Introducing Radiant-blog-extension</a></h2>
+      <p class="font-gray">Posted by Star on <span class="font-brown b">September 26, 2010</span> | 95 comments</p>
+      <p class="blog_news"><p>Our corporate website, www.imustardsoft.com is based on Radiant, a no-fluff, open source content management system designed for small teams. We love Radiant. Yes, I know, we are biased because it is based on Ruby on Rails, iMustardsoft&#8217;s specialty technology. Radiant has many nice features:<br />
+1. An elegant user interface<br />
+2. A first-class extension/plugin system<br />
+3. Simple user management and permissions<br />
+4. Flexible templating with layouts, snippets, page parts, and a custom tagging language</p></p>
+    </div>   
+    <h3 class="underline"></h3>
+  
+<div class="pagination"><a href="index.html?page=2" rel="prev" class="prev_page">&laquo; Previous</a> <a href="index.html?page=1" rel="start">1</a> <a href="index.html?page=2" rel="prev">2</a> <span class="current">3</span> <span class="disabled next_page">Next &raquo;</span></div>
+
+	
+            <br/><br/>
+            
+			
+	</div>
+		<div class="blog_nav floatright">
+                        <div class="Subscribe">
+				<h4>Sign Up for Newsletter</h4>
+				<form action="/subscriber_actions/register" method="post">
+				  <p style="margin-left:8px;">
+                                    <label>Email Address</label><input name="subscriber[email]" type="text" style=" width:226px;"/>
+                                    <input type="hidden" name="subscriber[password]" value="123456" />
+                                  </p>
+				  <p style="margin-left:8px; margin-top:5px;"><input type="submit" name="submit" value id="subscribe" class="subscribe_but"/></p>
+                                </form>
+                                <p class="space03"><a href="../rss/index.html">Blog RSS feed<img src="../images/icon-rss.gif" class="space_l3" alt="rss" /></a></p>
+			</div>
+			<div class="blog_readmore">
+				<h4>Read More</h4>
+                                <ul>
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2012/11/index.html">November 2012</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2012/08/index.html">August 2012</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2012/03/index.html">March 2012</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2012/01/index.html">January 2012</a></li>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/12/index.html">December 2011</a></li>
+                                  
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/11/index.html">November 2011</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/10/index.html">October 2011</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/07/index.html">July 2011</a></li>
+                                  
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/06/index.html">June 2011</a></li>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/02/index.html">February 2011</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2011/01/index.html">January 2011</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2010/12/index.html">December 2010</a></li>
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2010/10/index.html">October 2010</a></li>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <li><span style="color: #84afdd;margin-right: 5px;"> > </span><a href="2010/09/index.html">September 2010</a></li>
+                                  
+                                  
+                        	  <li> <span style="color: #84afdd; margin-right: 5px;"> > </span><a href="../blog">Recent entries</a></li>
+                        	  <li> <span style="color: #84afdd; margin-right: 5px;"> > </span><a href="../blog">All entries</a></li>
+                        	</ul>
+			</div>
+			<div class="name">
+                            <h3 class="font-green">What's in the name?</h3>
+                            <p>Starting as one <span class="font-green">small seed</span>, mustard plants quickly grow to <span class="font-green">impressive size</span>. Similarly, iMustardSoft brings your programs and web applications to launch faster, developing IT solutions that enhance your operations and get your latest product to <br/>market.</p>
+                            <div class="tree"></div>
+                       </div>
+			
+			<div class="blog_kownmore">
+				<h4>Want to know more?</h4>
+				<p style="padding-left:8px;">If we have piqued your interest then we'd love to hear from you.
+<a href="../contact/contact-us">Contact us</a></p>
+			</div>
+		</div>
+		<div class="clear"></div>
+   </div>
+	<div class="clear"></div>
+		
+   </div>
+  </div>
+
+  <div id="footer">
+    <div class="call_to_action">
+  	<div class="call_content">
+			<div class="floatleft">
+				<p class="big">Launch your product successfully</p>
+				<p class="small">Contact iMustardsoft to see how we can build together</p>
+			</div>
+			<div class="floatleft">
+				<a class="startnow" href="../contact/contact-us"></a>
+			</div>
+			<div class="floatleft">
+				<p class="telephone">(347)669-3158</p>
+			</div>
+			<div class="clear"></div>
+	</div>
+  </div>
+  <div class="footer">
+  	<div class="footer_content">
+		<div class="sitelinks floatleft" style="width:33%; padding-right:3%;">
+			<h4>Site Links</h4>
+			<div class="sitelinks_Menu">
+				<ul class="floatleft leftmenu" >
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../services/how-do-we-work">Services</a></li>
+					<li><a href="../contact/new-product-launch">New Product Launch Services</a></li>
+					<li><a href="../portfolio">Portfolio</a></li>
+					<li><a href="../blog">Blog</a></li>
+				</ul>
+				<ul class="floatright rightmenu">
+					<li><a href="../people/team">People</a></li>
+					<li><a href="../contact/contact-us">Contact Us</a></li>
+					<li><a href="../contact/careers">Careers</a></li>
+					<li><a href="../index.html">Privacy Policy</a></li>
+					<li><a href="../people/partners">Terms of Service</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer_contact floatleft">
+			<h4>Contact Us</h4>
+			<p><img src="../images/icon-phone.jpg" alt="phone" /><span>(347)669-3158, (917)382-2707(Fax)</span></p>
+			<p><img src="../images/icon-home.jpg" alt="home" /><span>1133 Broadway, Suite 706  New York, NY 10010</span></p>
+                        <p><img src="../images/icon-email.jpg" alt="Email" /><span>Email us at info@imustardsoft.com</span></p>
+<br/>
+			<p>Let us help you launch your next successful product - <a href="../contact/contact-us">contact us</a> for a consultation!</p>
+		</div>
+		<div class="hiring floatleft" style="padding-left:4%;">
+			<h4>We’re Hiring</h4>
+			<p>We're looking for great product designers, developers and marketers.</p><br/>
+			<p><a rel="external" href="https://github.com/imustardsoft"><img src="../images/github.gif" alt="github" /></a></p>
+		</div>
+		<div class="clear"></div>
+          </div>
+	</div>
+	<div class="copyright">
+		<div class="content">
+			Copyright © 2011 iMustardSoft LLC | All Rights Reserved | <a href="../sitemap">Site Map</a>.
+		</div>
+	</div>
+  </div>
+ 
+
+  </body>
+</html>
