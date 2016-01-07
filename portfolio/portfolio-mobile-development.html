@@ -33,13 +33,13 @@
     this.className+=(this.className.size>0? " ": "") + "sfhover";
     }
     sfEls[i].onmouseout=function() {
-    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+    this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
   "");
     }
    }
   }
   window.onload=menuFix;
-//]]> 
+//]]>
 </script>
 
 
@@ -57,32 +57,32 @@
   </head>
 
    <body class="js" onload="load()" onunload="GUnload()">
-      <script type="text/javascript">  
-function switchTab(n){  
-    for(var i = 1; i <= 3; i++){  
-        document.getElementById("tab_" + i).className = "";  
-        document.getElementById("tab_con_" + i).style.display = "none";  
-    }  
-    document.getElementById("tab_" + n).className = "on";  
-    document.getElementById("tab_con_" + n).style.display = "block";  
-}  
-</script> 
-<script type="text/javascript">  
-function pageTab(n){  
-    for(var i = 1; i <= 2; i++){  
-        document.getElementById("page_" + i).className = "";  
-        document.getElementById("list_" + i).style.display = "none";  
-    }  
-    document.getElementById("page_" + n).className = "current-page";  
-    document.getElementById("list_" + n).style.display = "block";  
+      <script type="text/javascript">
+function switchTab(n){
+    for(var i = 1; i <= 3; i++){
+        document.getElementById("tab_" + i).className = "";
+        document.getElementById("tab_con_" + i).style.display = "none";
+    }
+    document.getElementById("tab_" + n).className = "on";
+    document.getElementById("tab_con_" + n).style.display = "block";
+}
+</script>
+<script type="text/javascript">
+function pageTab(n){
+    for(var i = 1; i <= 2; i++){
+        document.getElementById("page_" + i).className = "";
+        document.getElementById("list_" + i).style.display = "none";
+    }
+    document.getElementById("page_" + n).className = "current-page";
+    document.getElementById("list_" + n).style.display = "block";
 }
 </script>
 <script type="text/javascript" src="../javascripts/jquery-slider.js"></script>
 <script type="text/javascript" src="../javascripts/easySlider1.5.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function(){	
+		$(document).ready(function(){
 			$("#slider").easySlider();
-		});	
+		});
 	</script>
 <div class="outer_wrap_in">
   <div class="inner_wrap">
@@ -96,7 +96,7 @@ function pageTab(n){
 			    <a href="../services/how-do-we-work" class="menu-arrow">Service</a>
 				<ul>
 				  	<li><a href="../services/how-do-we-work">How do we work?</a></li>
-					<li><a href="../services/what-do-we-do">What do we do?</a></li>
+					<li><a href="../services/what-do-we-do.html">What do we do?</a></li>
 					<li><a href="../services/mobile-development">Mobile development</a></li>
 					<li><a href="../services/ruby-on-rails-web-development">Ruby on Rails</a> </li>
                                         <li><a href="../services/e-commerce">E-Commerce</a></li>
@@ -105,10 +105,10 @@ function pageTab(n){
 			  <li><a href="../portfolio">Portfolio</a></li>
 			  <li><a href="../blog">Blog</a></li>
 			  <li>
-			    <a href="../people/team"  class="menu-arrow">People</a>
+			    <a href="../people/"/people/team.html"  class="menu-arrow">People</a>
 				<ul>
-				  	<li><a href="../people/team">Team</a></li>
-					<li><a href="../people/partners">Partners</a></li>
+				  	<li><a href="../people/"/people/team.html">Team</a></li>
+					<li><a href="../people/"/people/partners.html">Partners</a></li>
 				</ul>
 			  </li>
 			  <li>
@@ -123,7 +123,7 @@ function pageTab(n){
 			<li class="clear"></li>
 			</ul>
 		  </div>
-	
+
 	 <div class="topArrow_portfolio">
 	     <img src="../images/arrow-top.png" alt="arrow" />	   </div>
 	</div>
@@ -131,15 +131,15 @@ function pageTab(n){
         <a name="top" id="top"></a>
 	<div class="content_in  portfolio">
 		<h3>Portfolio</h3>
-		
-                <div id="box">  
-			<ul id="tab">  
-				<li id="tab_1" ><a href="../portfolio">Web Development</a></li>  
-				<li id="tab_2" class="on"><a href="portfolio-mobile-development">Mobile Development</a></li>  
-				<li id="tab_3" ><a href="portfolio-enterprise-applications">Enterprise Applications</a></li>  
-			</ul>  
-			  
-				  
+
+                <div id="box">
+			<ul id="tab">
+				<li id="tab_1" ><a href="../portfolio">Web Development</a></li>
+				<li id="tab_2" class="on"><a href="portfolio-mobile-development">Mobile Development</a></li>
+				<li id="tab_3" ><a href="/portfolio/portfolio-enterprise-applications.html">Enterprise Applications</a></li>
+			</ul>
+
+
 				<div id="tab_con_2" style="display: block; ">
 					<div class="introduce  mobile-case">
 							<ul>
@@ -147,7 +147,7 @@ function pageTab(n){
 									<a class="introduce-img" href="portfolio-mobile-chem-pro">
 									<img src="../images/mobilecase/ipad_img.jpg" alt="les" class="floatleft" />
 									</a>
-							  <div class="floatright les">	
+							  <div class="floatright les">
 										<a class="title font-black" href="portfolio-mobile-chem-pro">Chem Pro: Chemistry Tutor<br>
 										</a>
 										<p>The best way to learn chemistry is back with a brand new version built specifically for the iPad.</p>
@@ -159,20 +159,20 @@ function pageTab(n){
 									<a class="introduce-img" href="portfolio-mobile-les">
 									<img src="../images/mobilecase/les.jpg" alt="les" class="floatleft" />
 									</a>
-									<div class="floatright les">	
+									<div class="floatright les">
 										<a class="title font-black" href="portfolio-mobile-les">Lower East Side iPhone Application <br><span style="color:#FF0000;font-size:15px;">Featured in DNAInfo</span></a>
 										<p class="text">The Lower East Side Business Improvement District (LES BID) was established in 1992 as a nonprofit economic development organization dedicated to revitalizing the Orchard Street Shopping District by providing a variety of services to promote economic activity and improve the quality of life in the Lower East Side. Check out the App at <a class="iphone_text" href="http://itunes.apple.com/us/app/les/id477097479?mt=8">iphone APP Store.</a></p>
 										<p>In the creation of this application, we focused on the following areas during our programming efforts.  First we integrated the “Hot and Happening” feature, so that tourist and residents could be notified about the latest events.</p>
 										 <a class="itune_but" href="http://itunes.apple.com/us/app/les/id477097479?mt=8"></a>
 										<a class="read_more" href="portfolio-mobile-les">Read More</a>
-										
+
 									</div>
 								</li>
 								<li>
 										<a class="introduce-img"  href="portfolio-mobile-nyc"><img src="../images/mobilecase/nyc.jpg" alt="nyc" class="floatleft" /></a>
 									<div class="floatright">
 										<a class="title font-black" href="portfolio-mobile-nyc">NYCPlanIt <span style="color:#FF0000;font-size:15px;">Winner of BigApps2.0 Award</span></a>
-										<p>NYCPlanIt empowers New York City tourists to effectively plan their own trips to the city, helping them to create their own itinerary and then guiding them through it.  The NYCPlanIt system integrates a sophisticated web application and a mobile application that takes full advantage of the smartphone platform. The web application component utilizes a proprietary ranking algorithm to rank New York City's myriad sites, events and restaurants based on each individual user's stated interests, date of visit and budget. The itinerary can then be saved and shared on Facebook, linked to through Twitter or sent to friends via email.</p> 
+										<p>NYCPlanIt empowers New York City tourists to effectively plan their own trips to the city, helping them to create their own itinerary and then guiding them through it.  The NYCPlanIt system integrates a sophisticated web application and a mobile application that takes full advantage of the smartphone platform. The web application component utilizes a proprietary ranking algorithm to rank New York City's myriad sites, events and restaurants based on each individual user's stated interests, date of visit and budget. The itinerary can then be saved and shared on Facebook, linked to through Twitter or sent to friends via email.</p>
 										<a class="android_but" href="https://market.android.com/details?id=com.imustardsoft_mobile.nycplanit"></a>
                                                                                 <a class="itune_but"></a>
 										<a class="read_more" href="portfolio-mobile-nyc">Read More</a>
@@ -267,8 +267,8 @@ function pageTab(n){
 			}
 
 			$(document).ready(function(){
-			
-				
+
+
 				$("#btnShow1").click(showDiv1);
 				$("#btnHide1").click(hideDiv1);
 
@@ -277,10 +277,10 @@ function pageTab(n){
 
                                 $("#btnShow3").click(showDiv3);
 				$("#btnHide3").click(hideDiv3);
-          
+
                                 $("#btnShow4").click(showDiv4);
 				$("#btnHide4").click(hideDiv4);
-				
+
                                 $("#btnShow5").click(showDiv5);
 				$("#btnHide5").click(hideDiv5);
 
@@ -297,10 +297,10 @@ function pageTab(n){
                                               <div id="div1" class="slidingDiv" style="display: none; ">
 						<p>Businesses have used mobile applications as sales tools, connecting clients and potential customers to their products and services faster, and more cost-effectively, than ever before.  Mobile applications have also been used to mobilize brands and keep companies' names and brand identities at the front of people's minds.  This communicates the value of your brand in a big way.</p>
 						<p class="space-b20">The 2010 introduction of the iPad running iOS has popularized the tablet computer market, and in so doing has made it possible to develop mobile apps for a platform that is even more versatile and more powerful than even the most advanced mobile phones. A recent study by consultancy firm Gartner places the total yearly value of the market for mobile apps at $58 billion within three years—a rapid year-over-year growth from last year's comparatively paltry 8.2 billion downloads.</p>
-						</div>	
+						</div>
 							<h4>iMustardSoft Capability &amp; Advantages</h4>
 							<h5>Company Introduction</h5>
-							
+
 							<p>iMustardSoft differentiates itself from the competition in several key ways:</p>
 							<ul class="mobile-list">
 								<li>Proven success with existing powerful mobile applications</li>
@@ -314,7 +314,7 @@ function pageTab(n){
                                               </div>
 							<h5>Mobile Application Development</h5>
 							<p>iMustardSoft has extensive experience developing, launching and maintaining mobile applications. Our team members are well-versed in a wide array of programming languages and standards necessary to develop a mobile application, as well as deeply familiar with the ins and outs of getting the most out of the specific devices developed for the iOS platform:</p>
-                                                    <input type="button" id="btnShow3" class="show_hide" value="+ Read More" name="show"> 
+                                                    <input type="button" id="btnShow3" class="show_hide" value="+ Read More" name="show">
 	<input type="button" id="btnHide3" class="hide" style="display:none;" value="Hide" name="hide"><br>
                                                     <div id="div3" class="slidingDiv" style="display: none; ">
 							<ul class="mobile-list">
@@ -335,10 +335,10 @@ completed, the additional cost involved to move the application to Android table
 minimized.
 </p>
                       </div>
-							
+
 							<h5>One-Stop Shop</h5>
 							<p>iMustardSoft reduces production time and expense by handling every step of mobile application development in-house, including:</p>
-                                                      <input type="button" id="btnShow4" class="show_hide" value="+ Read More" name="show"> 
+                                                      <input type="button" id="btnShow4" class="show_hide" value="+ Read More" name="show">
 	                                              <input type="button" id="btnHide4" class="hide" style="display:none;" value="Hide" name="hide"><br>
                                                       <div id="div4" class="slidingDiv" style="display: none; ">
 							<ul class="mobile-list">
@@ -349,30 +349,30 @@ minimized.
 							</ul>
                                                       </div>
 							<h5>Simple Expansion or Migration Across Platforms</h5>
-                                                      <input type="button" id="btnShow5" class="show_hide" value="+ Read More" name="show"> 
+                                                      <input type="button" id="btnShow5" class="show_hide" value="+ Read More" name="show">
 	                                              <input type="button" id="btnHide5" class="hide" style="display:none;" value="Hide" name="hide"><br>
                                                       <div id="div5" class="slidingDiv" style="display: none; ">
 							<p>As the burgeoning tablet market matures, competitors to the iOS-powered iPhone App will also become more sophisticated and versatile.  As they do, they will also become more common in enterprise settings.  iMustardSoft's experience developing programs on multiple mobile platforms means that your application will remain competitive, relevant and available to potential clients who will eventually adopt a mobile solution other than the iPhone App.</p>
 							<p>iMustardSoft is a member of both Apple's iPhone Developer Program and also Android Developer Program, giving us a broad understanding of the trends in mobile applications across all major platforms as well as a deep familiarity with iOS, the particular platform that powers both the iPhone and the iPad.</p>
                                                       </div>
 							<h5>Web Application Development</h5>
-                                                      <input type="button" id="btnShow6" class="show_hide" value="+ Read More" name="show"> 
+                                                      <input type="button" id="btnShow6" class="show_hide" value="+ Read More" name="show">
 	                                              <input type="button" id="btnHide6" class="hide" style="display:none;" value="Hide" name="hide"><br>
                                                       <div id="div6" class="slidingDiv" style="display: none; ">
 							<p>As a provider of the latest web development solutions, iMustardSoft's key personnel have played lead roles in many successful high-profile projects.  Before iMustardSoft launched, they were building skills, experience and impressive portfolios on major projects around the world.  Since iMustardSoft formed in 2009, they have come together to deliver impressive results at even more impressive value.  For more details on some of the projects they've executed, see our sampling of <strong>Previous Clients</strong>.  For a more thorough breakdown of their individual areas of expertise, see <strong>Key Personnel</strong>.</p>
 							<p>iMustardSoft employees and associates draw on extensive backgrounds in every dimension of contemporary web application development, including information architecture, database construction and management, graphic design, end-user usability, multimedia and photo processing, software development, quality assurance, and user training, as well as high-level business consulting.</p>
                       </div>
-							
+
 							<div class="clear"></div>
 				  </div>
-				</div>  
-				</div>  
+				</div>
+				</div>
 		<div class="clear"></div>
 
 		<div class="clients">
 			<h3>Clients</h3>
 			<div id="slider">
-					<ul>				
+					<ul>
 						<li>
 							<a href="portfolio-mobile-development"><img alt="iopenbid" src="../images/clients/iopenbid.png"></a>
 							<a href="portfolio-mobile-development"><img alt="bayshare" src="../images/clients/bayshare.jpg"></a>
@@ -387,17 +387,17 @@ minimized.
 							<a href="portfolio-mobile-development"><img alt="corsedesignfactory" src="../images/clients/corsedesignfactory.jpg"></a>
 							<a href="portfolio-mobile-development"><img alt="parentmediainc" src="../images/clients/parentmediainc.jpg"></a>
 							<a href="portfolio-mobile-development"><img alt="wandcorp" src="../images/clients/wandcorp.jpg"></a>
-						</li>		
+						</li>
 					</ul>
 			</div>
 			<div class="clear"></div>
-		</div>	
+		</div>
 	</div>
 	<div class="clear"></div>
-		
+
    </div>
- 
-  
+
+
 
   <div id="footer">
     <div class="call_to_action">
@@ -428,11 +428,11 @@ minimized.
 					<li><a href="../blog">Blog</a></li>
 				</ul>
 				<ul class="floatright rightmenu">
-					<li><a href="../people/team">People</a></li>
+					<li><a href="../people/"/people/team.html">People</a></li>
 					<li><a href="../contact/contact-us">Contact Us</a></li>
 					<li><a href="../contact/careers">Careers</a></li>
 					<li><a href="../index.html">Privacy Policy</a></li>
-					<li><a href="../people/partners">Terms of Service</a></li>
+					<li><a href="../people/"/people/partners.html">Terms of Service</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
